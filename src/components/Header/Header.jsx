@@ -34,7 +34,7 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 bg-white shadow-md w-full">
-      <div className="flex items-center justify-between p-4 max-w-7xl mx-auto">
+      <div className="flex items-center justify-between p-4  mx-auto">
         {/* Logo and Title */}
         <div className="flex items-center">
           <button className="toggleButton">

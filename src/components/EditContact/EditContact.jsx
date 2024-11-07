@@ -57,7 +57,6 @@ const EditContact = () => {
         <div className="flex gap-3 mb-5">
           <label
             className="block text-gray-700 text-sm font-bold mb-2"
-            htmlFor="firstName"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +81,7 @@ const EditContact = () => {
                 name="fname"
                 value={fromdata.fname}
                 onChange={handleFrom}
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border-[1px] border-solid border-black rounded w-full block py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 placeholder="Enter Name"
               />
             </div>
@@ -93,7 +92,7 @@ const EditContact = () => {
                 name="lname"
                 value={fromdata.lname}
                 onChange={handleFrom}
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border-[1px] border-solid border-black rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 placeholder="Enter Last Name"
               />
             </div>

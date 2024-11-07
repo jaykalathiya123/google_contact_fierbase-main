@@ -112,7 +112,7 @@ const Home = () => {
                 key={contact.id}
                 className="hover:bg-gray-50 transition item-hover"
               >
-                <td className="py-2 px-4 text-black text-center flex items-center gap-2">
+                <td className="py-2 px-4 text-black text-center justify-center flex items-center gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -136,7 +136,7 @@ const Home = () => {
                 <td className="py-2  text-gray-700 text-center">
                   {contact.phone}
                 </td>
-                <td className="py-2 px-4 flex items-center">
+                <td className="py-2 px-4 flex items-center justify-center">
                   <div className="item-in">
                     <button
                       onClick={() => handleViewProfile(contact.id)}
